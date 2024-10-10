@@ -1,12 +1,11 @@
-def isprime():
+import random
+def whoPay(names):
     
-    num=int(input("enter a number"))
-    if num<2:
-        print("not a prime")
-    for i in range(2, num+1):
-        if num%i==0:
-            print("not a prime")
-        else:
-            print("prime")
+    b=len(names)
+    c=(random.randrange(0,b))
+    print(names[c]," should pay the bill")
+    print(c)
+   
+names=["a","b","c","d","e","f"]
+whoPay(names)
 
-isprime()
