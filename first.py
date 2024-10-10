@@ -1,11 +1,15 @@
 import random
-def whoPay(names):
+def moveright(right):
+    count=1
+    dog=2
     
-    b=len(names)
-    c=(random.randrange(0,b))
-    print(names[c]," should pay the bill")
-    print(c)
-   
-names=["a","b","c","d","e","f"]
-whoPay(names)
+    if dog < count:
+        print("🤠😊😊😊")
+    else:
+        print("📖📖📖📖🐘🐘🐴🐴🐴")
+right=(random.randrange(0,11))
+print(right)
+moveright(right)
+
+        
 
