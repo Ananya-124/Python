@@ -1,7 +1,13 @@
-import string
-import random
-def rand():
-    a=''.join(random.choices(string.ascii_uppercase, string.punctuation,k=2))
-   
-    print(a)
-rand()
+if 2==3:
+    print("Eureka")
+else:
+    b=input("what is your name")
+    a=len(b)
+    if a<5:
+        print("type agin ")
+        b=input("what is your name")
+    elif a>5:
+        print("you are genius well done")
+        c=input("Where are you from")
+    if c=="bangalore":
+        print("hurray!! 🥳🥳 , Congrtulations",b)
