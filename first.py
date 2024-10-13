@@ -1,7 +1,12 @@
 import numpy as np
-speed = [20,30,40,50,60,70]
-age = [1,2,3,4,5,5,6]
-sd = np.std(speed)
-print(int(sd))
-print(int(np.var(age)))
-print(np.percentile(speed,70))
+import matplotlib.pyplot as plt
+x=np.array([20,40])
+y=np.array([10,30])
+font1 = {'family':'serif','color':'blue','size':20}
+font2 = {'family':'serif','color':'darkred','size':15}
+plt.title("HEALTH",font1)
+plt.plot(x,y,'o',linestyle="dotted")
+plt.xlabel("fruits",font1)
+plt.ylabel("price",font2)
+
+plt.show()

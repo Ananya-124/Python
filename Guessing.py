@@ -1,4 +1,5 @@
 import random
+
 ip=int(input("please enter the range so you can guess the number b/w that range of numbers"))
 gr=(random.randrange(ip))
 print("Are You Ready To Guess?!")
@@ -14,8 +15,6 @@ while gc < chances:
         print(f'Oops sorry, The number is {gr} better luck next time')
     elif mg < gr:
         print("Your Guess is less than the number")
-        
-        
     elif mg > gr:
         print("Your Guess is more than the number")
         
